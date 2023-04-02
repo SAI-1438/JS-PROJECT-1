@@ -1,0 +1,276 @@
+.main{
+    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width:100%;
+    height: 100%;
+    background-color: #3D087B;
+}
+.m1{
+    width:600px;
+    height:100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.m1c{
+    height: 90px;
+    width: 250px;
+    margin: 5px;
+    background-image:  url(./clock_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0px;
+}
+.m1t{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    padding:8px;
+    margin:5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#3D087BDE;
+    width:570px;
+    position:relative;
+    top:0px;
+}
+.mrng{
+    background-image: url(./wake_up.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:30px;
+}
+.lnch{
+    background-image: url(./lunch_time\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:30px;
+}
+.evng{
+    background-image: url(./nap_time.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:30px;
+}
+.nyt{
+    background-image: url(./wake_up.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:30px;
+}
+.slct{
+    width:260px;
+    padding:5px;
+    border-radius: 5px;
+    filter:opacity(0.5);
+    color:#3D087BDE;
+}
+.m1d{
+    display: flex;
+    background-color: #4f33a9;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:whitesmoke;
+    padding:5px;
+    margin:5px;
+    width:570px;
+    position:relative;
+    top:0px;
+}
+.m1l{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin:5px;
+    width:580px;
+    position: relative;
+    top:0px;
+}
+.l1{
+    height:40px;
+    width:290px;
+    text-align: center;
+    color:whitesmoke;
+    padding:5px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 25px;
+    background-image: linear-gradient(to right,#a493f7 10%,#f38ab4);
+}
+.l2{
+    height:80px;
+    width:250px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: #4f33a9;
+    font-size: 18px;
+    color:#F25CFE;
+}
+
+.m2{
+    width:600px;
+    height:100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.m2f{
+    margin:10px;
+    position:relative;
+    top:0px;
+    height:110px;
+    width:580px;
+}
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+#fst{
+    background-color: whitesmoke;
+}
+#lst{
+    background-color:#f466f9;
+    color:white;
+}
+.box{
+    height:50px;
+    width:80px;
+    background-color: #fccfe1;
+    text-align: center;
+    margin:5px;
+    padding:10px 5px;
+    color:#5F0089;
+    border-radius: 5px;
+    z-index:1;
+}
+.dots{
+    display:flex;
+    font-size: 30px;
+    align-items: center;
+}
+h1{
+    margin:0px;
+}
+.f2{
+    display: flex;
+    height:30px;
+    width:80%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    filter:opacity(0.70);
+    position:relative;
+    left:50px;
+    top:-18px;
+}
+.f3{
+    display: flex;
+    height:30px;
+    width:60%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    filter: opacity(0.22);
+    position: relative;
+    left:100px;
+    top:-38px;
+}
+.m2s{
+    display: flex;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:#833bf7;
+    padding:25px 10px;
+    margin:10px;
+    width:560px;
+    position: relative;
+    top:0px;
+}
+.m2t{
+    display:flex;
+    border-radius:10px;
+    background-image: url(./plouzane-1758197_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px;
+    height:350px;
+    width:580px;
+    position: relative;
+    top:0px;
+}
+@media(768px<=width<=820px){
+    .main{
+        width:100%;
+        height:100%;
+    }
+    .m2f{
+        top:-505px;
+    }
+    .m2s{
+        top:-520px;
+    }
+    .m1t{
+        top:220px;
+    }
+    .m1d{
+        top:230px;
+    }
+    .m1l{
+        top:235px;
+    }
+}
+@media(360px<=width<=420px){
+    .m1{
+        width:360px;
+    }
+    .m1c{
+        margin:10px;
+    }
+    .m1l{
+        width:350px;
+        margin:10px;
+        top:265px;
+    }
+    .m1d{
+        width:330px;
+        padding:5px;
+        margin:10px;
+        top:275px;
+    }
+    .m1t{
+        width:330px;
+        padding:5px;
+        margin:10px;
+        top:270px;
+    }
+    .slct{
+        width:110px;
+    }
+    .m2{
+        width:360px;
+    }
+    .m2t{
+        height:230px;
+        width:340px;
+        background-size: contain;
+    }
+    .m2s{
+        width:320px;
+        top:-620px;
+    }
+    .m2f{
+        width:340px;
+        top:-610px;
+    }
+    .f2{
+        width:70%;
+    }
+    .f3{
+        width:40%;
+    }
+}
